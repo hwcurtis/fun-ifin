@@ -1,0 +1,22 @@
+name = input("Welcome to the game!Brave Challenger please tell us your name: ")
+print("Hello " + name + "! Let's begin your adventure.")
+
+
+choice = input("type stick or something else: ")
+if choice == "stick":
+    print("attack or wait")
+choice = input("type hide or attack ")
+if choice == "attack":  # Add your logic here
+    print("be sure you're ready for whatever you encounter")
+    print("you throw the stick and run away ")
+choice = input("type pick up the rock or leash: ")
+if choice == "rock":
+    print("You picked up the rock. Prepare to defend yourself!")
+    print("You can throw it or use it as a weapon.")
+
+
+elif choice == "leash":
+    print("hope that the noise does not come from a big animal")
+    print("your kindness paid off and its a puppy")
+else:
+    print("congratulations your the owner of a new puppy")
