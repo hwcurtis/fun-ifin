@@ -13,8 +13,6 @@ choice = input("type pick up the rock or leash: ")
 if choice == "rock":
     print("You picked up the rock. Prepare to defend yourself!")
     print("You can throw it or use it as a weapon.")
-
-
 elif choice == "leash":
     print("hope that the noise does not come from a big animal")
     print("your kindness paid off and its a puppy")
