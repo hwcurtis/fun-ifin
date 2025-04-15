@@ -4,17 +4,24 @@ print("Hello " + name + "! Let's begin your adventure.")
 
 choice = input("type stick or something else: ")
 if choice == "stick":
-    print("attack or wait")
-choice = input("type hide or attack ")
-if choice == "attack":  # Add your logic here
-    print("be sure you're ready for whatever you encounter")
-    print("you throw the stick and run away ")
+    print("You chose a stick. Do you want to attack or wait?")
+    choice = input("type attack or wait: ")
+    if choice == "attack":
+        print("Be sure you're ready for whatever you encounter.")
+        print("You throw the stick and run away.")
+    elif choice == "wait":
+        print("You decided to wait. Something might happen soon.")
+    else:
+        print("Invalid choice. The adventure ends here.")
+else:
+    print("You chose something else. Let's move on.")
+
 choice = input("type pick up the rock or leash: ")
 if choice == "rock":
     print("You picked up the rock. Prepare to defend yourself!")
     print("You can throw it or use it as a weapon.")
 elif choice == "leash":
-    print("hope that the noise does not come from a big animal")
-    print("your kindness paid off and its a puppy")
+    print("Hope that the noise does not come from a big animal.")
+    print("Your kindness paid off, and it's a puppy!")
 else:
-    print("congratulations your the owner of a new puppy")
+    print("Congratulations! You're the owner of a new puppy.")
