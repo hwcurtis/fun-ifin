@@ -6,8 +6,19 @@ choice = input("type right, left or straight: ")
 if choice == "right":
      print ("you choose to go right and see a small stream , which by chance has a nearby jug")
      print ("you pick up the jug and fill it with water, you are now hydrated")
-   # elif choice == "left":
-   
+elif choice == "left":
+    #    print("You chose the left path and found a bush. Do you want to pick up a stick or wait?")
+    #    choice = input("type stick or wait: ")
+    #    if choice == "stick":
+     #       print("You chose a stick. Do you want to attack or wait?")
+      #      choice = input("type attack or wait: ")
+       #     if choice == "attack":
+        #        print("Be sure you're ready for whatever you encounter.")
+         #       print("You throw the stick and run away.")
+          #  elif choice == "wait":
+           #     print("You decided to wait. Something might happen soon.")
+            #else:
+             #   print("Invalid choice. The adventure ends here.")
 
 #if choice == "stick":
  #   print("You chose a stick. Do you want to attack or wait?")
